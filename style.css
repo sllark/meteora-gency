@@ -1,0 +1,401 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  background-color: #000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue-Light';
+  src: url(./fonts/HelveticaNeue-Light.ttf);
+}
+@font-face {
+  font-family: 'helveticaneuethin';
+  src: url('./fonts/helveticaneue_thin.woff2') format('woff2'),
+    url('./fonts/helveticaneue_thin.woff') format('woff');
+}
+
+h1 {
+}
+
+.background {
+  background-image: url('./images/homepage/ph_bg_new-min.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.nameInCorner {
+  position: fixed;
+  left: 100px;
+  top: 100px;
+  display: none;
+}
+
+.name {
+  color: #fff;
+  font-size: 3rem;
+  font-family: 'helveticaneuethin', sans-serif;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+
+.bio {
+  position: fixed;
+  left: 100px;
+  top: 200px;
+  display: none;
+  width: 400px;
+  height: auto;
+}
+
+.bio p {
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: 'HelveticaNeue-Light', sans-serif;
+}
+
+/* FACETS */
+
+.facets {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* FACET 1 */
+.facetOne {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./images/homepage/facet_1.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  visibility: hidden;
+}
+
+.facetOne.show {
+  visibility: visible;
+  display: block;
+}
+
+/* FACET 2 */
+.facetTwo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./images/homepage/facet_2.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  visibility: hidden;
+}
+
+.facetTwo.show {
+  visibility: visible;
+  display: block;
+}
+
+/* FACET 3 */
+.facetThree {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./images/homepage/facet_3.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  visibility: hidden;
+}
+
+.facetThree.show {
+  visibility: visible;
+  display: block;
+}
+
+/* FACET 4 */
+.facetFour {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./images/homepage/facet_4.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  visibility: hidden;
+}
+
+.facetFour.show {
+  visibility: visible;
+  display: block;
+}
+
+/* FACET 5 */
+.facetFive {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./images/homepage/facet_5.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  visibility: hidden;
+}
+
+.facetFive.show {
+  visibility: visible;
+  display: block;
+}
+
+/* FACET 6 */
+.facetSix {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./images/homepage/facet_6.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  visibility: hidden;
+}
+
+.facetSix.show {
+  visibility: visible;
+  display: block;
+}
+
+/* FACET 7 */
+.facetSeven {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./images/homepage/facet_7.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  visibility: hidden;
+}
+
+.facetSeven.show {
+  visibility: visible;
+  display: block;
+}
+
+/* FACET 8 */
+.facetEight {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./images/homepage/facet_8.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  visibility: hidden;
+}
+
+.facetEight.show {
+  visibility: visible;
+  display: block;
+}
+
+/* FACET 9 */
+.facetNine {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./images/homepage/facet_9.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  visibility: hidden;
+}
+
+.facetNine.show {
+  visibility: visible;
+  display: block;
+}
+
+/* FACET 10 */
+.facetTen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./images/homepage/facet_10.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  visibility: hidden;
+}
+
+.facetTen.show {
+  visibility: visible;
+  display: block;
+}
+
+/* MENU ITEMS TEXT */
+
+.menuText {
+  font-family: 'HelveticaNeue-Light', sans-serif;
+  color: #fff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition-duration: 0.5s;
+}
+
+.menuText:hover {
+  color: #b96b21;
+  transition-duration: 0.5s;
+}
+
+#menuItemOne {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  float: right;
+  display: inline-block;
+  right: 51%;
+  margin-top: 2%;
+  display: none;
+  z-index: 999;
+}
+
+#menuItemTwo {
+  position: absolute;
+  top: 57%;
+  transform: translateY(-50%);
+  float: right;
+  display: inline-block;
+  right: 52%;
+  margin-top: 2%;
+  display: none;
+  z-index: 999;
+}
+
+#menuItemThree {
+  position: absolute;
+  top: 64%;
+  transform: translateY(-50%);
+  float: right;
+  display: inline-block;
+  right: 50%;
+  margin-top: 2%;
+  display: none;
+  z-index: 999;
+}
+
+#menuItemFour {
+  position: absolute;
+  top: 71%;
+  transform: translateY(-50%);
+  float: right;
+  display: inline-block;
+  right: 47%;
+  margin-top: 2%;
+  display: none;
+  z-index: 999;
+}
+
+#menuItemFive {
+  position: absolute;
+  top: 78%;
+  transform: translateY(-50%);
+  float: right;
+  display: inline-block;
+  right: 33%;
+  margin-top: 2%;
+  display: none;
+  z-index: 999;
+}
+
+#menuItemSix {
+  position: absolute;
+  top: 71%;
+  transform: translateY(-50%);
+  float: right;
+  display: inline-block;
+  right: 29%;
+  margin-top: 2%;
+  display: none;
+  z-index: 999;
+}
+
+#menuItemSeven {
+  position: absolute;
+  top: 64%;
+  transform: translateY(-50%);
+  float: right;
+  display: inline-block;
+  right: 11%;
+  margin-top: 2%;
+  display: none;
+  z-index: 999;
+}
+
+#menuItemEight {
+  position: absolute;
+  top: 57%;
+  transform: translateY(-50%);
+  float: right;
+  display: inline-block;
+  right: 15%;
+  margin-top: 2%;
+  display: none;
+  z-index: 999;
+}
+
+#menuItemNine {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  float: right;
+  display: inline-block;
+  right: 20%;
+  margin-top: 2%;
+  display: none;
+  z-index: 999;
+}
+
+#menuItemTen {
+  position: absolute;
+  top: 43%;
+  transform: translateY(-50%);
+  float: right;
+  display: inline-block;
+  right: 15%;
+  margin-top: 2%;
+  display: none;
+  z-index: 999;
+}
+
